@@ -1,0 +1,571 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: black;
+    padding: 1rem 3rem;
+    text-align: end;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.nav [href="/contact"] {
+    background-color: white;
+    padding: 0.3rem 1rem;
+    color: black;
+    border-radius: 20px;
+}
+
+
+/* section1 */
+
+.section1 {
+    width: 100%;
+    margin: auto;
+    margin-top: 15rem;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.section1 .italics {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.section1 .bold {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.section1 .design {
+    font-size: 2rem;
+    margin: 1rem 0rem;
+}
+
+.section1 .icons a {
+    color: black;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+
+/* section2 */
+
+.section2 {
+    width: 1024px;
+    height: 89px;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+}
+
+.section2 h3 {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0.1854em;
+    text-align: left;
+}
+
+.section2 p {
+    font-family: "Open Sans" "Montserrat";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: justified;
+    /* margin: 1rem 0rem; */
+}
+
+.section2 button {
+    width: 139px;
+    height: 25px;
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.Section3 {
+    width: 763px;
+    height: 150px;
+    margin: auto;
+    margin-top: 18rem;
+    text-align: center;
+}
+
+.Section3 .AboutMe {
+    width: 404px;
+    height: 74px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.3554em;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    border: 8px solid #000000;
+    margin-bottom: 2rem;
+}
+
+.Section3 p {
+    margin: 2rem 0rem;
+    text-align: left;
+}
+
+.Section3 .more {
+    width: 139px;
+    height: 25px;
+    background-color: transparent;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 2px solid #000000;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+}
+
+.Section4 {
+    min-width: 100%;
+    min-height: 20vh;
+    margin: auto;
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.Section4 .Box1 .inline {
+    display: inline-block;
+    width: 431px;
+}
+
+.Section4 h2 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.1854em;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.Section4 p {
+    min-width: 431px;
+    height: 104px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Section4 .Box1 .Cell1 {
+    margin-right: calc(900px-862px);
+    padding-left: 30px;
+    padding-top: 30px;
+    background-image: url(./assets/Images/design_bg.svg);
+    background-repeat: no-repeat;
+    background-position: top -20px;
+}
+
+.Section4 .Box1 .Cell2 {
+    margin-right: calc(900px-862px);
+    padding-left: 60px;
+    padding-top: 30px;
+    background-image: url('./assets/Images/dev_bg.svg');
+    background-repeat: no-repeat;
+    background-position: top -25px;
+}
+
+.Section4 .Box2 {
+    width: 500px;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.Section4 .Box2 {
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 51px;
+    background-image: url('./assets/Images/maintenance_bg1.svg'), url('./assets/Images/maintenance_bg2.svg');
+    background-repeat: no-repeat;
+    background-position: top left, center top;
+}
+
+.Section5 {
+    width: 488px;
+    height: 107px;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.Section5 .skills {
+    width: 404px;
+    height: 74px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.3554em;
+    border: 8px solid #000000;
+}
+
+.Section6 {
+    width: 100%;
+    height: 857px;
+    margin-top: 3rem;
+    color: #000000;
+}
+
+.Section6 .using {
+    width: 261px;
+    height: 74px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0.1854em;
+    text-align: left;
+}
+
+.Section6 .learning {
+    width: 261px;
+    height: 74px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0.1854em;
+    text-align: left;
+}
+
+.Section6 .different {
+    width: 261px;
+    height: 74px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0.1854em;
+    text-align: left;
+}
+
+.Section7 {
+    min-width: 587px;
+    min-height: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.Section7 .Portfolio {
+    width: 482px;
+    height: 74px;
+    margin: auto;
+    margin-top: 50rem;
+    padding: auto;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.4354em;
+    text-align: center;
+    border: 8px solid #000000;
+    background-color: transparent;
+}
+
+.Section7 .bt {
+    min-width: 600px;
+    height: 48px;
+    margin-top: 3rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.Section7 .all {
+    width: 201px;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+
+.Section7 .coded {
+    width: 290px;
+    border: none;
+    border-bottom: 2px solid #848484;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+
+.Section7 .designed {
+    width: 290px;
+    border: none;
+    border-bottom: 2px solid #848484;
+    padding: 5px 10px;
+    background-color: transparent;
+}
+
+.Section7 .cd {
+    width: 204px;
+    height: 38px;
+    margin: auto;
+    margin-top: 10rem;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0.095em;
+    text-align: center;
+}
+
+.Section7 .eat {
+    width: 482px;
+    height: 74px;
+    margin: auto;
+    margin-top: 0.1rem;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.2054em;
+    text-align: center;
+}
+
+.Section7 .react {
+    width: 315px;
+    height: 38px;
+    margin: auto;
+    margin-top: 0.1rem;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: -0.015em;
+    text-align: center;
+}
+
+.Section7 .demo {
+    width: 114px;
+    height: 27px;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.095em;
+    text-align: center;
+    border: 2px solid #000000;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+}
+
+.Section7 .info {
+    width: 114px;
+    height: 27px;
+    outline: none;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.095em;
+    text-align: center;
+    border: 2px solid #000000;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+}
+
+.Section8 {
+    color: black;
+    width: 100%;
+}
+
+.Section8 .end {
+    width: 294px;
+    height: 48px;
+    margin: auto;
+    margin-top: 15rem;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.Section8 .contact {
+    width: 367px;
+    height: 74px;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.3554em;
+    text-align: center;
+    border: 8px solid #000000;
+    background-color: transparent;
+}
+
+.Section8 .note {
+    width: 763px;
+    height: 72px;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.Section8 .designend {
+    width: 170px;
+    height: 12px;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Section8 .Bx1,
+.Bx2,
+.Bx3 {
+    width: 205px;
+    height: 46px;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    border: 5px solid #000000;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    background-color: transparent;
+    width: 606px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Section8 .Bx4 {
+    width: 205px;
+    height: 46px;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    border: 5px solid #000000;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    background-color: transparent;
+    width: 606px;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Section8 .submit {
+    width: 197px;
+    height: 45px;
+    margin: auto;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    border: 3px solid #000000;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+.Section9 {
+    width: 100%;
+}
+
+.Section9 .top-icon {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    margin-top: 8rem;
+    width: 15px;
+    height: 15px;
+}
+
+.Section9 .top-text {
+    width: 188px;
+    height: 26px;
+    margin: auto;
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1854em;
+    text-align: center;
+    color: #000;
+}
+
+.Section9 .bt-icons {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-left: 37.8rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.Section9 .bt-icons a {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.Section9 .last-text {
+    width: 360px;
+    height: 22px;
+    margin: auto;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
